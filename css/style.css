@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+.navbar {
+  background-color: #131313;
+  padding: 1rem 3rem;
+}
+
+.navbar .navbar-brand {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a {
+  color: white;
+  font-size: 1rem;
+  padding: 0 2rem;
+}
+
+#navbarSupportedContent > ul > li:nth-child(n) > a:hover {
+  color: #00bf85;
+}
+
+#navbarSupportedContent > button {
+  font-weight: 500;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  background-color: #00bf85;
+}
+
+.mid {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.mid video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  pointer-events: none;
+  position: absolute;
+}
+
+.hero {
+  position: relative;
+  color: white;
+  padding: 350px 15px;
+}
+
+.hero h2 {
+  font-weight: 700;
+  font-size: 4rem;
+}
+
+.hero p {
+  font-size: 1rem;
+  padding: 1rem 0 2rem;
+}
+
+.hero a {
+  background-color: #00bf85;
+  padding: 1rem 2rem;
+  color: white;
+  border-radius: 30px;
+  text-decoration: none;
+}
+
+.about {
+  padding: 3rem 3rem;
+  background-color: black;
+  color: white;
+}
+
+.about h6 {
+  color: #00bf85;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.about h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.about p {
+  padding-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.about a {
+  font-weight: 500;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  background-color: #00bf85;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.imgage {
+  padding-top: 3rem;
+}
+
+.discover {
+  padding: 3rem 3rem;
+}
+
+.discover h6 {
+  color: #00bf85;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.discover h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.discover p {
+  padding-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.discover a {
+  font-weight: 500;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  background-color: #00bf85;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.big {
+  margin-bottom: 2rem;
+}
+
+.service {
+  background-color: black;
+  padding: 3rem;
+}
+
+.service h2 {
+  color: white;
+  padding-bottom: 2rem;
+}
+
+.service .one {
+  background-color: white;
+  margin: 1rem;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.one img {
+  padding: 1rem;
+}
+
+.sign {
+  padding: 3rem 3rem;
+}
+
+.sign h6 {
+  color: #00bf85;
+  font-weight: 800;
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+}
+
+.sign h1 {
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 2px;
+}
+
+.sign p {
+  padding-bottom: 1rem;
+  letter-spacing: 2px;
+}
+
+.sign a {
+  font-weight: 500;
+  padding: 0.4rem 1.4rem;
+  border-radius: 30px;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.bg {
+  background-color: black;
+  color: white;
+}
+
+@media screen and (max-width: 988px) {
+  .navbar {
+    padding: 1rem;
+  }
+  #navbarSupportedContent > ul {
+    padding-left: 0.8rem;
+    text-align: left;
+  }
+  #navbarSupportedContent > ul > li:nth-child(n) > a {
+    padding: 1rem;
+    text-align: left;
+  }
+}
